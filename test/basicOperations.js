@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-describe('Operaciones', function() {
+describe('Operaciones', function () {
   var a, b;
 
   beforeEach(() => {
@@ -13,7 +13,7 @@ describe('Operaciones', function() {
       assert.equal(a + b, 6);
     });
 
-    it('restar', () => {
+    it('resta', () => {
       assert.equal(a - b, 2);
     });
   });

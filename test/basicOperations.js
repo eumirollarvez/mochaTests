@@ -1,20 +1,16 @@
-var assert = require('assert');
+/* eslint-disable no-undef */
+import {
+  equal
+} from 'assert';
 
 describe('Operaciones', function () {
-  var a, b;
-
-  beforeEach(() => {
-    a = 4;
+  var a = 4,
     b = 2;
-  });
 
   describe('Funciones', () => {
-    it('suma', () => {
-      assert.equal(a + b, 6);
-    });
+    // eslint-disable-next-line no-undef
+    it('suma', () => equal(a + b, 6));
 
-    it('resta', () => {
-      assert.equal(a - b, 2);
-    });
+    it('resta', () => equal(a - b, 2));
   });
 });
